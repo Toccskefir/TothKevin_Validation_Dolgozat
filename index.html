@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artwork</title>
+  </head>
+  <body>
+    <p id="amountOfArtwork">Művek darabszáma: 0</p>
+    <p id="priceOfArtwork">Művek összesített ára: 0Ft</p>
+    
+    <form id="formStatue">
+      <label for="inputTitle">Szobor címe: </label>
+      <input type="text" id="inputTitle"> <br><br>
+
+      <label for="inputYear">Készítésének éve: </label>
+      <input type="number" id="inputYear"> <br><br>
+
+      <label for="inputPrice">Szobor ára: </label>
+      <input type="number" id="inputPrice" placeholder="Ft"> <br><br>
+
+      <label for="inputHeight">Szobor magassága: </label>
+      <input type="number" id="inputHeight" placeholder="cm"> <br><br>
+
+      <input type="submit" value="Felvétel">
+    </form>
+
+    <p id="errorMessage"></p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
