@@ -1,4 +1,4 @@
-import { Artwork } from './Artwork';
+import { Artwork } from './artwork';
 
 export class Statue implements Artwork {
     title: string;

@@ -1,5 +1,5 @@
-import { Artwork } from './Artwork';
-import { Statue } from './Statue';
+import { Artwork } from './artwork';
+import { Statue } from './statue';
 
 export const list: Artwork[] = [];
 
